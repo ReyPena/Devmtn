@@ -1,0 +1,22 @@
+html, body{
+  font-family: sans-serif;
+}
+.wrap{
+  background-color: #354458;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+h2{
+  text-align: center;
+  border-bottom: solid black;
+}
+.user{
+  text-align: center;
+}
+input{
+  height: 20px;
+  border-radius: 8px;
+}
+button{
+  border-radius: 8px;
+}

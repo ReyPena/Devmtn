@@ -1,0 +1,143 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #005AA3;
+  font-family: Arial;
+}
+/*this is the white wrap that have all the contend*/
+.white-wrap{
+  width: 75%;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 2% auto;
+}
+/*information top bar vvvvvvvvv*/
+.info-back{
+  width: 100%;
+  height: 25px;
+  background-color: #004E8E;
+  border-bottom: solid 1px #378CCD;
+}
+.info-bar{
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-size: 12px;
+  color: white;
+}
+.info{
+  display: inline;
+  margin: 0 2% 0 2%;
+}
+/*this is whe you can fix the icons and style them*/
+.icon{
+  margin: 0;
+  width: 40px;
+  height: 21px;
+  vertical-align: middle;
+}
+.info-bar li{
+  line-height: 25px;
+}
+img{
+  vertical-align: middle;
+}
+/*this is the nav bar */
+.logo{
+  margin: 15px 5px 10px 0;
+}
+/*.nav{
+  height: ;
+  margin: ;
+}*/
+.botton{
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.home{
+  color: #13A2D8;
+  margin-left: 10%;
+}
+.general{
+  color: #1E75B5;
+  margin-left: 2%
+}
+/*here is the carorusel*/
+.carousel{
+  max-width: 865px;
+  height: 360px;
+  margin: 2% auto;
+}
+.carousel img{
+  max-width: 100%;
+}
+.logo{
+  max-width: 100%;
+}
+
+/*here is where are all the colums and its atributes*/
+/*this is where the imgs go*/
+.boximg{
+  display: inline-block;
+  margin: 1% 8% 1% 8%;
+}
+/*this are the propeti for the size of all the img */
+.boximg img{
+  mawidth: 100%;
+}
+.imgColum{
+  width: 275px;
+  height: 245px;
+  align-items: center;
+  box-shadow:
+}
+/*this is the text in the botton */
+.columintext{
+  padding: 0 2% 0 2% 0;
+  /*width: 100%;*/
+}
+.text-colum{
+  display: inline-block;
+  max-width: 275px;
+  height: auto;
+  vertical-align: top;
+  margin: 0 0 0 0;
+  font-size: 13px;
+}
+.right{
+  margin-left: 9%;
+}
+/*here is the article and the main img that is the page*/
+.imgcontiner{
+  max-width: 875px;
+  height: 510px;
+  margin: 2% auto;
+}
+.imgcontiner img{
+  width: 100%;
+}
+/*here is the text vvvvvvvv*/
+.article{
+  height: auto;
+  width: 94%;
+  margin: 0 auto;
+}
+p{
+  font-size: 13px;
+  line-height: 20px;
+}
+.center{
+  text-align: center;
+}
+.strong{
+  font-weight: bold;
+  text-align: center;
+}
+/*here is where the video goes*/
+.video{
+
+  padding: 4% 2.5%;
+}

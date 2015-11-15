@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  width: 99%;
+  margin: 1% auto;
+}
+/*this is the first 3 boxes whit colors*/
+.container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+/**{ outline: 1px solid black;}*/
+.box {
+  width: 30%;
+  height: 100px;
+}
+/*here is where the text goes and its atributes*/
+.text{
+  padding: 2% 0;
+}
+p {
+  font: 15px/25px Arial, sans-serif;
+}
+/*here are the 2 big continers*/
+.blockcontainer{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  height: 30%;
+}
+.rblock{
+  width: 30%;
+  height: 100%;
+}
+.lblock{
+  width: 70%;
+  height: 100%;
+}
+/*this are the color at the end*/
+.blockcolors{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+  margin-top: 2%;
+}
+.firts {
+  width: 80%;
+  height: 100%;
+}
+.small{
+  width: 2%;
+  height: 100%;
+}
+.midle{
+  width: 20%;
+  height: 100%;
+}
+/*colors*/
+.red {
+  background-color: #cf021a;
+}
+.blue{
+  background-color: #4a90e0;
+}
+.grey {
+  background-color: #4a4a4a;
+}

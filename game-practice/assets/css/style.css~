@@ -1,0 +1,14 @@
+#map{
+  background: url("../img/background.jpg");
+  position: relative;
+  border: 1px solid black;
+  height: 300px;
+  width: 600px;
+}
+#player{
+  position: absolute;
+  background: url("../img/hero.jpg") no-repeat;
+  width: 100px;
+  height: 150px;
+  border: 1px solid red;
+}

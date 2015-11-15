@@ -1,0 +1,31 @@
+html, body{
+  padding: 2% 4%;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #E9EAED;
+}
+.topbarr{
+  background-color: #425F9C;
+  color: white;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.search{
+  margin-bottom: 40px;
+}
+input{
+  height: 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+.name{
+  text-decoration: underline;
+  font-weight: bold;
+}
+.users{
+  border-bottom: solid black;
+}
+img{
+  border-radius: 100%;
+}

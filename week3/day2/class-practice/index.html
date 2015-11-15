@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "foodApp">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" charset="utf-8">
+</head>
+<body ng-controller = "mainCtrl">
+  <div class="qstions col">
+  </div>
+  <div class="choices col">
+    {{food.name}}<span> {{food.origin}}</span>
+    <div>calories{{food.calories}}</div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

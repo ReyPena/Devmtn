@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Listo</title>
+	<link rel="stylesheet" href="app/css/styles/main.css" media="screen" title="no title" charset="utf-8">
+	</head>
+<body>
+
+	<!-- this is the space for the user to eneter the info -->
+	<div class="container">
+		<!-- here is the top container -->
+<div class="topContainer">
+	<form id="newTaskForm">
+		<label>New Super Item</label>
+		<input id="newItemInput" placeholder="New Super Task">
+		<button id="saveNewItem">Save</button>
+		<button id="cancel">Cancel</button>
+	</form>
+
+	<div class='new-item-header'>
+		<button href="#" class="pull-right pencil" id="newListItem" style="">New</button>
+	</div>
+</div>
+<!-- this are the colums  -->
+<div class="bottomContiner">
+	<div id="newList">
+		<h4>New List:</h4>
+	</div>
+	<br>
+	<div class="panel">
+            <h4>In Progress:</h4>
+            <ul class="list-group" id="currentList"></ul>
+    </div>
+
+    <div class="panel">
+            <h4>Archived:</h4>
+            <ul class="list-group" id="archivedList"></ul>
+    </div>
+</div>
+</div>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="app/scripts/app.js"></script>
+
+</body>
+</html>

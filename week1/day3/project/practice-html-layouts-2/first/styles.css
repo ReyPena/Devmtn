@@ -1,0 +1,97 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+/* his is the 3 colors (red, blue , grey) */
+.nav{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+.red{
+  display: inline-block;
+  height: 80px;
+  width: 145px;
+  margin: 2% 0 8% 6.25%;
+  background-color: red;
+}
+.blue{
+  display: inline-block;
+  height: 80px;
+  width: 145px;
+  margin: 2% 0 8% 6.25%;
+  background-color: blue;
+}
+.black{
+  display: inline-block;
+  height: 80px;
+  width: 145px;
+  margin: 2% 0 8% 6.25%;
+  background-color: grey;
+}
+/*this is the text*/
+.text{
+  margin: 30px auto;
+
+  max-width: 525px;
+  width: 90%;
+  background-color: green;
+}
+p{
+  text-align: center;
+}
+/* this are the 2 big color on the pic. */
+.color2{
+  margin: auto;
+  height: 30%;
+  width: 93%;
+}
+.blockred{
+  height: 100%;
+  width: 35%;
+  float: left;
+  background-color: red;
+}
+.blockblue{
+  height: 100%;
+  width: 65%;
+  float: right;
+  background-color: blue;
+}
+/* this is the colors on at the end. */
+.color4{
+  margin: auto;
+  height: 30%;
+  width: 93%;
+  background-color: black
+}
+.bigblue{
+  margin: 2% 0 0 0;
+  height: 90%;
+  width: 60%%;
+  float: left;
+  background-color: blue;
+}
+.redleft{
+  margin: 2% 0 0 0;
+  height: 90%;
+  width: 5%;
+  float: left;
+  background-color: red;
+}
+.smallblack{
+  margin: 2% 0 0 0;
+  height: 90%;
+  width: 30%;
+  float: left;
+  background-color: grey;
+}
+.redright{
+  margin: 2% 0 0 0;
+  height: 90%;
+  width: 5%;
+  float:left;
+  background-color: red;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="userProfiles">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="mainController">
+  <div class="topbarr">
+    <h1>Friends Mini-Project</h1>
+  </div>
+
+<div class="search">
+  <input class="form-control" placeholder="Search Name" ng-model="name.first_name">
+  <input class="form-control" placeholder="Search for ID" ng-model="userid.id">
+</div>
+
+<div class="users" ng-repeat="us in user | filter: name | filter: userid">
+  <div class="name">
+    {{us.first_name | uppercase}}
+    {{us.last_name | uppercase}}
+  </div class="id">
+    <img src="{{us.avatar}}">
+  <div>
+    ID: {{us.id}}
+  </div>
+  </div>
+</div>
+
+<!-- here are the scripts all link  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js" charset="utf-8"></script>
+  <script src="app.js" charset="utf-8"></script>
+  <script src="controller.js" charset="utf-8"></script>
+  <script src="service.js" charset="utf-8"></script>
+
+</body>
+</html>

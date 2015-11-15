@@ -1,0 +1,16 @@
+									AJAX
+Grud -Method
+create - POST
+read - GET
+update - PUT
+delete - DELETE
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+var ajaxParams = {
+	method: 'GET',
+	url: 'http://www.twitter.com/api/timeline/31231/';
+};
+
+$.ajax(ajaxParamas).them(function(dataWeAskFor){
+});

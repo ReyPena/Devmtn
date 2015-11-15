@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #A9A9A9;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+header {
+  background-color: rgba(0,0,0,0.8);
+  height: 20%;
+  width: auto;
+
+}
+header a {
+  line-height: 45px;
+}
+
+.container {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  min-height: 100px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 2px;
+  margin-bottom: 9%;
+}
+.container img{
+  max-width: 100%;
+  background: red;
+}
+
+.footer {
+  background-color: rgba(0,0,0,0.8);
+  height: 20%;
+  width: auto;
+  margin: -1;
+}

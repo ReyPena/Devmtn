@@ -1,0 +1,48 @@
+html, body {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #d8d8d8;
+}
+.pic {
+  height: 40px;
+  width: 40px;
+  background-color: #4a90e2;
+  float: left;
+  margin: 5px 5px ;
+}
+.text {
+  position: sticky;
+  background: white;
+  height: 30%;
+  width: 85%;
+  margin:58px 25px 0 55px;
+  overflow: auto;
+}
+.boxtop {
+  height: 15%;
+  width: 100%;
+  background-color: #4a90e2;
+}
+.boxcenter {
+  height: 15%;
+  width: 100%;
+  background-color: #50e3c2;
+}
+.boxfoot{
+  height: 15%;
+  width: 100%;
+  background-color: #b8e986;
+}
+.boxlast{
+  height: 15%;
+  width: 100%;
+  color: white;
+  background-color: #f8e71c;
+}

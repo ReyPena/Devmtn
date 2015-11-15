@@ -1,0 +1,10 @@
+html, body{
+  font-family: sans-serif;
+  text-align: center;
+}
+h1{
+  text-decoration: underline;
+}
+img{
+  border-radius: 100%;
+}

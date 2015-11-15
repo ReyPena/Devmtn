@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app3">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" hresf="style.css">
+</head>
+	<body ng-controller="mainCtrl">
+		<input ng-model="name.name"></input>
+		<div ng-repeat="some in something | filter:name">
+			<span>{{some.name}}</span>
+			<div>
+				{{some.email}} {{some.dataEmployed}}
+			</div>
+			<span>{{some.phone}}</span>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+		<script src="app.js"></script>
+		<script src="controller.js"></script>
+		<script src="service.js"></script>
+	</body>
+</html>
