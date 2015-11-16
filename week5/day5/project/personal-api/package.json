@@ -1,21 +1,30 @@
 {
-  "name": "personal-api",
-  "version": "1.0.0",
-  "description": "Start of the Personal API Project",
+  "name": "api",
+  "version": "0.1.0",
+  "description": "personal api project, of sorts",
   "main": "server.js",
+  "scripts": {
+    "test": "xo"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DevMountain/personal-api.git"
+    "url": "git+https://github.com/zacanger/53.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "zacanger",
+  "license": "WTFPL",
   "bugs": {
-    "url": "https://github.com/DevMountain/personal-api/issues"
+    "url": "https://github.com/zacanger/53/issues"
   },
-  "homepage": "https://github.com/DevMountain/personal-api#readme",
+  "homepage": "https://github.com/zacanger/53#readme",
+  "xo": {
+    "semi-colon": false,
+    "spaces": true
+  },
+  "devDependencies": {
+    "xo": "^0.11.0"
+  },
   "dependencies": {
     "body-parser": "^1.14.1",
-    "expres": "0.0.5",
     "express": "^4.13.3"
   }
 }

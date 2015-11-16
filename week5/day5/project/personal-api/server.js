@@ -1,25 +1,27 @@
-var express = require("express");
-var bodyParser = require("body-parser");
+var express    = require('express')
+ ,  bodyparser = require('body-parser')
+ ,  midware    = require('./ctrl/midware.js')
+ ,  mainCtrl   = require('./ctrl/main.js')
+ ,  port       = 9999
+ ,  app        = express()
 
-// controllers
-var mainCtrl = require("./controllers/mainCtrl.js");
-var middleware = require("./controllers/middleware.js")
+app.use(bodyparser.json())
+app.use(midware.addHeaders)
 
-var app = express();
+app.get('/name', mainCtrl.getName)
+app.get('/location', mainCtrl.getLocation)
+app.get('/occupations', mainCtrl.getOccupations)
+app.get('/occupations/latest', mainCtrl.latestOccupation)
+app.get('/hobbies', mainCtrl.getHobbies)
+app.get('/hobbies/:type', mainCtrl.getHobbiesByType)
+app.get('/skillz', mainCtrl.getSkillz)
 
-app.use(bodyParser.json());
-app.use(middleware.addHeaders);
+app.put('/name', mainCtrl.changeName)
+app.put('/location', mainCtrl.changeLocation)
+app.post('/occupations', mainCtrl.addOccupation)
+app.post('/hobbies', mainCtrl.addHobby)
+app.post('/skillz', midware.generateId, mainCtrl.addSkill)
 
-app.get("/name/:id", mainCtrl.user);
-app.get("/names", mainCtrl.users);
-app.get("/location/:id", mainCtrl.gps);
-app.get("/locations", mainCtrl.gpseses);
-app.get("/occupations", mainCtrl.occupations);
-app.get("/occupations/latest", mainCtrl.latest);
-app.get("/hobbies", mainCtrl.hobbies);
-app.get("/test", mainCtrl.hobbiesByType);
-
-
-app.listen(3000, function () {
-  console.log("listening on port ", 3000);
+app.listen(port, function () {
+  console.log('howdy, imma hang out on ' + port)
 })
