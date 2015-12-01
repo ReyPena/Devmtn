@@ -1,4 +1,4 @@
-var server =  require("server");
+var server =  require("../server.js");
 
 module.exports = {
 	sessionSecret: 'keyboard cat'
